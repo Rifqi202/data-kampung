@@ -19,6 +19,7 @@ from django.urls.conf import include
 
 urlpatterns = [
     path('',include('daftarwarga.urls')),
+    # path('login/', include('login.urls')),
     path('admin/', admin.site.urls),
-    # path('dasboard/', include('dasboard.urls')),
+    
 ]
